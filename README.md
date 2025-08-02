@@ -19,4 +19,6 @@ This is a smart AI-powered Nutrition Assistant developed as part of IBM SkillsBu
 
 ## 🚀 How to Run
 1. Upload the notebook to IBM Watson Studio or run locally using Jupyter
-2. Install dependencies using:
+2. Install dependencies using:✅ Project developed using [IBM Cloud](https://cloud.ibm.com) – Watson Studio and associated services, aligned with IBM SkillsBuild for Academia (Problem Statement 8: Nutrition Agent).
+
+
