@@ -1,12 +1,17 @@
 <img width="1915" height="863" alt="image" src="https://github.com/user-attachments/assets/320b2ee7-7a33-462d-b5f5-1ae47db8fad4" />
 
-AI Nutrition Agent
+# 🍽️ AI Nutrition Agent
 
-This project leverages AI and computer vision to create a smart nutrition assistant that helps users identify food items from images and provides dietary recommendations. Designed using IBM Watsonx.ai Studio, it integrates deep learning models with IBM Cloud Object Storage for efficient image analysis and nutrition classification.
+This project leverages **AI and computer vision** to create a smart nutrition assistant that identifies food items from images and provides **dietary recommendations**. Designed using **IBM Watsonx.ai Studio**, it integrates deep learning models with **IBM Cloud Object Storage** for efficient image analysis and nutritional classification.
 
-🔍 Problem Statement
+### 🔍 Problem Statement
 
-With the increasing consumption of processed foods, many individuals lack awareness of their nutritional choices. This AI-powered assistant helps bridge that gap by identifying food items through uploaded images and offering health suggestions instantly. It encourages healthier eating habits by providing real-time dietary insights.
+With the increasing consumption of processed foods, many individuals lack awareness of their **nutritional choices**. This AI-powered assistant helps bridge that gap by:
+
+- Identifying food items through uploaded images.  
+- Offering **instant health suggestions** based on the food type.  
+- Promoting healthier eating habits using **real-time dietary insights**.
+
 
 ### 🌟 Key Features
 
