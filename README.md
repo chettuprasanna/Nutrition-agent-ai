@@ -1,27 +1,33 @@
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/320b2ee7-7a33-462d-b5f5-1ae47db8fad4" />
 
 AI Nutrition Agent
+
 This project leverages AI and computer vision to create a smart nutrition assistant that helps users identify food items from images and provides dietary recommendations. Designed using IBM Watsonx.ai Studio, it integrates deep learning models with IBM Cloud Object Storage for efficient image analysis and nutrition classification.
 
-Problem Statement
+🔍 Problem Statement
+
 With the increasing consumption of processed foods, many individuals lack awareness of their nutritional choices. This AI-powered assistant helps bridge that gap by identifying food items through uploaded images and offering health suggestions instantly. It encourages healthier eating habits by providing real-time dietary insights.
 
-Key Features
+🌟 Key Features
 Image-based food recognition using pre-trained deep learning models.
-
 Calorie and nutrition insights for each detected item.
-
 Tailored health suggestions based on the food type.
-
 Cloud-based storage and deployment via IBM Watsonx.ai Studio.
 
-Integration with IBM Cloud Object Storage for real-time image access.
-
+ Wow Factors:
+ Integration with IBM Cloud Object Storage for real-time image access.
 Supports multiple food types in a single session (e.g., burger, pizza, salad).
-
 Offers instant visual results and health advice with a clean UI.
-
 Fully deployable and adaptable for mobile or web applications.
+
+🧠 AI Stack Used
+Python
+Hugging Face Transformers (microsoft/resnet-50)
+IBM Watsonx.ai Studio
+IBM Cloud Object Storage (COS)
+PIL & Torch for image processing and prediction
+
+
 Sample Output:
 
 <img width="1915" height="863" alt="Screenshot 2025-08-03 111431" src="https://github.com/user-attachments/assets/bf2c1381-299d-4e32-92c9-2d2a1891237b" />
@@ -36,7 +42,8 @@ Sample Output:
 
 <img width="1919" height="913" alt="Screenshot 2025-08-03 111558" src="https://github.com/user-attachments/assets/2c95eeca-5778-40ff-ad52-be4fde9fbefc" />
 
-How It Works
+
+How It Works:
 User uploads food image to IBM COS.
 
 AI model processes the image to classify the food.
