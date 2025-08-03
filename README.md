@@ -8,19 +8,22 @@ This project leverages AI and computer vision to create a smart nutrition assist
 
 With the increasing consumption of processed foods, many individuals lack awareness of their nutritional choices. This AI-powered assistant helps bridge that gap by identifying food items through uploaded images and offering health suggestions instantly. It encourages healthier eating habits by providing real-time dietary insights.
 
-🌟 Key Features
+🌟 Key Features:
+
 Image-based food recognition using pre-trained deep learning models.
 Calorie and nutrition insights for each detected item.
 Tailored health suggestions based on the food type.
 Cloud-based storage and deployment via IBM Watsonx.ai Studio.
 
  Wow Factors:
+ 
  Integration with IBM Cloud Object Storage for real-time image access.
 Supports multiple food types in a single session (e.g., burger, pizza, salad).
 Offers instant visual results and health advice with a clean UI.
 Fully deployable and adaptable for mobile or web applications.
 
-🧠 AI Stack Used
+🧠 AI Stack Used:
+
 Python
 Hugging Face Transformers (microsoft/resnet-50)
 IBM Watsonx.ai Studio
@@ -44,12 +47,10 @@ Sample Output:
 
 
 How It Works:
+
 User uploads food image to IBM COS.
-
 AI model processes the image to classify the food.
-
 Model predicts label and returns health suggestions.
-
 Image and results are displayed back in the interface.
 
 
